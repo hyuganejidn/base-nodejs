@@ -5,7 +5,7 @@ const { getAllTodos } = require('../controllers/todo.controller')
 const router = express.Router()
 
 router.get("/", function (req, res) {
-  return getAllTodos
+  return getAllTodos()
 })
 
 export default router

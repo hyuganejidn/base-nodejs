@@ -10,11 +10,6 @@ module.exports = {
     filename: 'bundle.js',
   },
   target: 'node',
-  node: {
-    __dirname: false,
-    __filename: false,
-  },
-  externals: [webpackNodeExternals()],
   module: {
     rules: [
       {
